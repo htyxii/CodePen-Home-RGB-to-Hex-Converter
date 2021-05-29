@@ -1,25 +1,41 @@
-<div class="container">
-    <div class="title">RGB to Hex Color Converter</div>
-    <div class="red">
-      <div class="label">R</div>
-      <div class="slidecontainer">
-        <input type="range" min="0" max="255" value="0" class="slider" id="myRange">
-      </div>
-      <div class="number">0</div>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">RGB to Hex Color Converter</div>
+        <div class="red">
+            <div class="label">R</div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="255" value="0" class="slider" id="myRange">
+            </div>
+            <div class="number">0</div>
+        </div>
+        <div class="green">
+            <div class="label">G</div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="255" value="0" class="slider" id="myRange">
+            </div>
+            <div class="number">0</div>
+        </div>
+        <div class="blue">
+            <div class="label">B</div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="255" value="0" class="slider" id="myRange">
+            </div>
+            <div class="number">0</div>
+        </div>
+        <div class="hex">#000000</div>
     </div>
-    <div class="green">
-      <div class="label">G</div>
-      <div class="slidecontainer">
-        <input type="range" min="0" max="255" value="0" class="slider" id="myRange">
-      </div>
-      <div class="number">0</div>
-    </div>
-    <div class="blue">
-      <div class="label">B</div>
-      <div class="slidecontainer">
-        <input type="range" min="0" max="255" value="0" class="slider" id="myRange">
-      </div>
-      <div class="number">0</div>
-    </div>
-    <div class="hex">#000000</div>
-  </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
