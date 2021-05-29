@@ -1,0 +1,62 @@
+body {
+    background-color: #000000;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .title {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .red, .green, .blue {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  .red .label, .red .number {
+    background-color: red;
+  }
+  .green .label, .green .number{
+    background-color: green;
+  }
+  .blue .label, .blue .number{
+    background-color: blue;
+  }
+  
+  .label, .number {
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 10px;
+  }
+  
+  .label {
+    width: 26px;
+  }
+  
+  .number {
+    width: 50px;
+  }
+  
+  .slidecontainer {
+    display: flex;
+  }
+  
+  .hex {
+    font-size: 3em;
+    background-color: rgba(255,255,255,0.3);
+    width: 225px;
+    text-align: center;
+    border-radius: 5px;
+  }
